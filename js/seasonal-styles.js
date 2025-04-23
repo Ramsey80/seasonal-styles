@@ -1,3 +1,7 @@
+$(document).ready(function () {
+    // Call default season view on page load
+    changeSeason("default");
+    
 $("document").ready(function(){
     $('.seasons a').click(function(e){//find all a tags inside class of seasons
         e.preventDefault();//stop default submission
